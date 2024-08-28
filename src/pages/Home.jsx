@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from "react";
 
 import { Box, Typography } from "@mui/material";
@@ -115,10 +114,4 @@ export const Home = () => {
 			</Box>
 		</>
 	);
-=======
-import { Carousel } from "../components/Carousel";
-
-export const Home = () => {
-	return <Carousel />;
->>>>>>> c2b49d8b40be73ca4fef211e5fc5f2b385733870
 };

@@ -137,14 +137,11 @@ export const NavBar = () => {
 			});
 	};
 
-<<<<<<< HEAD
 	const handleNavMenuItemClick = (page) => {
 		navigate(page === "Inicio" ? "/" : `/${page}`);
 		handleCloseNavMenu();
 	};
 
-=======
->>>>>>> c2b49d8b40be73ca4fef211e5fc5f2b385733870
 	return (
 		<AppBar position="static">
 			<Container maxWidth="xl">
@@ -195,11 +192,7 @@ export const NavBar = () => {
 							{pages.map((page) => (
 								<MenuItem
 									key={page}
-<<<<<<< HEAD
 									onClick={() => handleNavMenuItemClick(page)}
-=======
-									onClick={() => navigate(page === "Inicio" ? "/" : `/${page}`)}
->>>>>>> c2b49d8b40be73ca4fef211e5fc5f2b385733870
 								>
 									<Typography textAlign="center">{page}</Typography>
 								</MenuItem>
